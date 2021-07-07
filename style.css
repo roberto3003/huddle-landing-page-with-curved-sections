@@ -215,13 +215,26 @@ section, .section  {
   overflow: hidden;
 }
 
+.cards {
+  justify-content: space-around;
+}
+
+.cards > * {
+  flex-grow: initial;
+}
+
 .card-image {
   height: 3em;
 }
 
 .card-image img {
+  height: 100%;
   min-width: initial;
   margin-block-end: var(--padding);
+}
+
+b {
+  font-size: 3em;
 }
 
 a {
