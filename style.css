@@ -197,7 +197,6 @@ section, .section  {
   margin: 0;
 }
 
-
 .cta {
   background-color: var(--accent);
   border: 0.1em  solid var(--accent);
@@ -216,6 +215,14 @@ section, .section  {
   overflow: hidden;
 }
 
+.card-image {
+  height: 3em;
+}
+
+.card-image img {
+  min-width: initial;
+  margin-block-end: var(--padding);
+}
 
 a {
   text-decoration:none;
