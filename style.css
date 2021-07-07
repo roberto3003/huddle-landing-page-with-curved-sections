@@ -193,7 +193,7 @@ section, .section  {
   color: var(--accent);
 }
 
-.header-button {
+.header-button, .footer-button {
   margin: 0;
 }
 
