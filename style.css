@@ -54,7 +54,7 @@ body {
 
 p {
   line-height: 1.5;
-  max-width: 60ch;
+  max-width: 60em;
 }
 
 nav {
@@ -66,6 +66,13 @@ hr {
   margin-block-end: calc(var(--padding)*3);
   border:unset;
 }
+
+
+img,
+  picture {
+	max-width: 100%;
+	display: block;
+  }
 
 
 input {
@@ -89,7 +96,6 @@ input:not(:placeholder-shown):invalid {
 .logo {
   margin-inline-end: auto;
 }
-
 .wrapper {
   min-height: 100vh;
 }
@@ -156,6 +162,12 @@ footer .wrapper {
   text-align: center;
 }
 
+.centered {
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+}
+
+
 .flex-center {
   display: flex;
   justify-content: center;
@@ -180,6 +192,11 @@ section, .section  {
   border: 0.1em  solid var(--accent);
   color: var(--accent);
 }
+
+.header-button {
+  margin: 0;
+}
+
 
 .cta {
   background-color: var(--accent);
