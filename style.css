@@ -5,22 +5,6 @@
   --letter-spacing: 0.3em;
 }
 
-/* dark-theme colors */
-:root {
-  --bg-color: midnightblue;
-  --text: var(--white);
-  --text-contrast: var(--black);
-  --theme: lightsteelblue;
-  --contrast: rebeccapurple;
-  --medium: indigo;
-  --accent: coral;
-  --white: white;
-  --black: rgba(46, 49, 49, 1);
-  --shadow: unset;
-  --shadow-deep: unset;
-}
-
-
 /* light-theme colors */
 :root {
   --bg-color: var(--white);
@@ -35,6 +19,22 @@
   --shadow: 0 0.25vw 1vw  0 rgba(0,0,0,0.2);
   --shadow-deep: 0 0.5vw 2vw  0 rgba(0,0,0,0.2);
 }
+
+/* dark-theme colors */
+:root {
+  --bg-color: mediumblue;
+  --text: var(--white);
+  --text-contrast: var(--black);
+  --theme: lightsteelblue;
+  --contrast: dimgrey;
+  --medium: var(--black);
+  --accent: coral;
+  --white: white;
+  --black: rgba(46, 49, 49, 1);
+  --shadow: unset;
+  --shadow-deep: unset;
+}
+
 
 
 html {
