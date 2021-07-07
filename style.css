@@ -23,13 +23,13 @@
 
 /* light-theme colors */
 :root {
-  --bg-color: floralwhite;
+  --bg-color: var(--white);
   --text: var(--black);
   --text-contrast: var(--white);
   --theme: var(--white);
-  --medium: lavender;
-  --contrast: lightsteelblue;
-  --accent: slateblue;
+  --medium: azure;
+  --contrast: whitesmoke;
+  --accent: deeppink;
   --white: white;
   --black: rgba(46, 49, 49, 1);
   --shadow: 0 0.25vw 1vw  0 rgba(0,0,0,0.2);
@@ -178,6 +178,13 @@ section, .section  {
   margin-block-end: calc(var(--padding)*6);
 }
 
+.bg-medium {
+  background-color: var(--medium);
+}
+
+.bg-medium article {
+  padding: var(--padding);
+}
 
 .button {
   border-radius: var(--padding);
@@ -267,4 +274,6 @@ a:visited {
   align-items: start;
 }
 
-
+.footer-left .logo, h3 {
+  margin: var(--padding) 0;
+}
